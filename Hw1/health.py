@@ -94,14 +94,8 @@ async def main():
     
     results = await asyncio.gather(*tasks)
     
-    # 將所有批次的訊息平坦化成一個清單
-    all_messages = [msg for batch in results for msg in batch]
-    
-    # 將對話紀錄整理成 DataFrame 並存成 CSV
-    df_log = pd.DataFrame(all_messages)
-    output_file = "diet_recommendations_log.csv"
-    df_log.to_csv(output_file, index=False, encoding="utf-8-sig")
-    print(f"已將所有對話紀錄輸出為 {output_file}")
+    # **已移除 CSV 輸出部分**
+    print("\n[系統] 所有使用者的健康建議已產生完畢！")
 
 if __name__ == '__main__':
     import sys
