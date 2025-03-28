@@ -9,6 +9,8 @@ load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=api_key)
 
+#HW2 開始
+
 # 讀取 CSV
 input_csv = "c5ec7a1f-3995-4c87-a59a-1f9a761570bf.csv"
 df = pd.read_csv(input_csv)
@@ -54,3 +56,4 @@ output_csv = "traffic_analysis_result.csv"
 output_df.to_csv(output_csv, index=False, encoding="utf-8-sig")
 
 print("✅ 分析完成！結果已儲存為：traffic_analysis_result.csv")
+#HW2 結束
