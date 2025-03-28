@@ -13,7 +13,7 @@ from autogen_ext.models.openai import OpenAIChatCompletionClient
 from autogen_ext.agents.web_surfer import MultimodalWebSurfer
 
 load_dotenv()
-#Hw1 開始
+#HW1 開始
 async def process_chunk(chunk, start_idx, total_records, model_client, termination_condition):
     """
     處理單一批次資料：
@@ -95,7 +95,7 @@ async def main():
     results = await asyncio.gather(*tasks)
     
     print("\n[系統] 所有使用者的健康建議已產生完畢！")
-#Hw1 結束
+#HW1 結束
 if __name__ == '__main__':
     import sys
     if sys.platform.startswith('win'):
