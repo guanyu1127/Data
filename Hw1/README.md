@@ -4,4 +4,3 @@
 
 示範影片:https://youtu.be/6aQuiBAc4JY
 
-![image](https://github.com/guanyu1127/Data/blob/main/Hw1/AI%20Agent%E6%9E%B6%E6%A7%8B%E5%9C%96.pdf)
