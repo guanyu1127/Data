@@ -4,4 +4,5 @@
 
 示範影片:https://youtu.be/6aQuiBAc4JY
 
-AI agent架構圖:https://github.com/guanyu1127/Data/blob/main/Hw1/AI%20Agent%E6%9E%B6%E6%A7%8B%E5%9C%96.pdf
+AI agent架構圖
+![AI agent架構圖](https://github.com/guanyu1127/Data/blob/main/Hw1/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-03-30%20111819.png)
