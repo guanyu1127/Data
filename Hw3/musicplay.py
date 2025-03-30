@@ -1,5 +1,5 @@
 from playwright.sync_api import sync_playwright
-
+#Hw3 開始
 def play_youtube_music_trending():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)  # 顯示瀏覽器
@@ -34,3 +34,4 @@ def play_youtube_music_trending():
 
 if __name__ == "__main__":
     play_youtube_music_trending()
+#Hw3 結束
