@@ -10,7 +10,7 @@ import google.generativeai as genai
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=api_key)
-
+#HW4 開始
 def get_chinese_font_file():
     """尋找可用的中文字型"""
     fonts_path = r"C:\\Windows\\Fonts"
@@ -92,3 +92,4 @@ with gr.Blocks() as demo:
     submit_button.click(fn=gradio_handler, inputs=[pdf_input, user_input], outputs=[output_text, output_pdf])
 
 demo.launch(share=True)
+#HW4 結束
